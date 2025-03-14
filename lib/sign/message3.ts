@@ -1,8 +1,8 @@
 'use strict'
 import * as BN from "bn.js"
 import {Rand} from '@thepulsewallet/crypto-rand'
-import {PailPrivKey, PailPubKey, createPailKeyPair} from '@safeheron/crypto-paillier'
-import {Secp256k1SchnorrProof, PailProof} from "@safeheron/crypto-zkp";
+import {PailPrivKey, PailPubKey, createPailKeyPair} from '@thepulsewallet/crypto-paillier'
+import {Secp256k1SchnorrProof, PailProof} from "@thepulsewallet/crypto-zkp";
 import {two_party_ecdsa_sign} from "../proto_gen/two_party_ecdsa_sign";
 import {JsonObject} from "./jsonObject";
 import {UrlBase64} from "@safeheron/crypto-utils";

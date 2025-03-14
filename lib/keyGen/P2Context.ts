@@ -1,10 +1,10 @@
 'use strict'
 import * as BN from "bn.js"
 import {Rand} from '@thepulsewallet/crypto-rand'
-import {PailPrivKey, PailPubKey, createPailKeyPair} from '@safeheron/crypto-paillier'
+import {PailPrivKey, PailPubKey, createPailKeyPair} from '@thepulsewallet/crypto-paillier'
 import {HashCommitment} from "@safeheron/crypto-commitment/dist";
 import * as elliptic from "elliptic"
-import {PailProof, Secp256k1SchnorrProof} from "@safeheron/crypto-zkp";
+import {PailProof, Secp256k1SchnorrProof} from "@thepulsewallet/crypto-zkp";
 import {Message1} from "./message1";
 import {Message2} from "./message2";
 import {Message3} from "./message3";

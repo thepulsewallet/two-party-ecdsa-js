@@ -1,6 +1,6 @@
 'use strict'
 import * as BN from "bn.js"
-import {Secp256k1SchnorrProof, PailProof} from "@safeheron/crypto-zkp";
+import {Secp256k1SchnorrProof, PailProof} from "@thepulsewallet/crypto-zkp";
 import {two_party_ecdsa_key_gen} from "../proto_gen/two_party_ecdsa_key_gen";
 import {JsonObject} from "./jsonObject";
 import {UrlBase64} from "@safeheron/crypto-utils";

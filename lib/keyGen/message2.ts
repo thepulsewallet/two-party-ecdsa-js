@@ -1,5 +1,5 @@
 'use strict'
-import {Secp256k1SchnorrProof} from "@safeheron/crypto-zkp";
+import {Secp256k1SchnorrProof} from "@thepulsewallet/crypto-zkp";
 import {two_party_ecdsa_key_gen} from "../proto_gen/two_party_ecdsa_key_gen";
 import {JsonObject} from "./jsonObject";
 import {UrlBase64} from "@safeheron/crypto-utils";

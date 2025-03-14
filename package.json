@@ -1,6 +1,6 @@
 {
   "name": "@thepulsewallet/two-party-ecdsa-js",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Two party ecdsa protocol",
   "keywords": [
     "Two party",
@@ -43,9 +43,9 @@
   },
   "dependencies": {
     "@safeheron/crypto-commitment": "^1.0.0",
-    "@safeheron/crypto-paillier": "^1.0.0",
+    "@thepulsewallet/crypto-paillier": "^1.0.2",
     "@safeheron/crypto-utils": "^1.0.1",
-    "@safeheron/crypto-zkp": "^1.0.0",
+    "@thepulsewallet/crypto-zkp": "^1.0.1",
     "@thepulsewallet/crypto-rand": "^1.0.0",
     "assert": "^2.0.0",
     "bn.js": "^5.2.1",

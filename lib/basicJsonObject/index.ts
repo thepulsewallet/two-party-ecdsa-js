@@ -1,8 +1,8 @@
 'use strict'
 import * as assert from "assert";
 import * as BN from "bn.js"
-import {PailPubKey, PailPrivKey} from "@safeheron/crypto-paillier";
-import {PailProof, Secp256k1SchnorrProof, Ed25519SchnorrProof} from "@safeheron/crypto-zkp";
+import {PailPubKey, PailPrivKey} from "@thepulsewallet/crypto-paillier";
+import {PailProof, Secp256k1SchnorrProof, Ed25519SchnorrProof} from "@thepulsewallet/crypto-zkp";
 import * as elliptic from "elliptic"
 const Secp256k1 = new elliptic.ec('secp256k1')
 const P256 = new elliptic.ec('p256')

@@ -1,6 +1,6 @@
 'use strict'
 import * as BN from "bn.js"
-import {PailPrivKey, PailPubKey, createPailKeyPair} from '@safeheron/crypto-paillier'
+import {PailPrivKey, PailPubKey, createPailKeyPair} from '@thepulsewallet/crypto-paillier'
 import {two_party_ecdsa_key_gen} from "../proto_gen/two_party_ecdsa_key_gen";
 import {JsonObject} from "./jsonObject";
 import {UrlBase64} from "@safeheron/crypto-utils";
